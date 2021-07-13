@@ -1,0 +1,12 @@
+
+<header>
+    <nav class="p-d-flex" [ngStyle]="{backgroundColor:'var(--blue-600)'}">
+        <img src="../../../../assets/img/munimixco-logo2.png" height="55" alt="">
+    </nav>
+</header>
+<app-transporte (evePlaca)="getVehiculo($event)" [isReset]="resetForm"></app-transporte>
+<app-evaluacion  *ngIf="bus" (sendRespuesta)="getRespuestas($event)"></app-evaluacion>
+
+<p-toast position="center"></p-toast>
+
+<!--*ngIf="bus"-->

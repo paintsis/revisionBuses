@@ -1,1 +1,23 @@
+
 /* You can add global styles to this file, and also import other style files */
+html,body{
+  margin: 0;
+  padding: 0;
+}
+.navMixco{
+  width: 100%;
+}
+
+.titleDetail{
+    color: #2e2f31cf;
+    font-weight: bold;
+    
+  }
+  
+  .detail{
+      color: #646568;
+      margin-left: 0.5rem;
+      font-family: "Roboto Mono";
+      font-size: 0.9rem;
+   }
+
